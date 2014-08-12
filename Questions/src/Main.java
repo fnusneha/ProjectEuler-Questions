@@ -5,7 +5,8 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.print("Hello Nimi");
+		Driver driver=new Driver();
+		System.out.print(driver.add(3, 4));
 
 	}
 
